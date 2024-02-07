@@ -127,9 +127,10 @@
           banner_location: 'bottom'
           })
          .then((data) => { 
+           alert("show banner function starts");
             if (data.result) {
               // success
-              alert ("vkBridge.send('VKWebAppShowBannerAd', {  banner_location: 'bottom' })");//this banner showed
+              alert ("banner showed successful");//this banner showed
             }
           })
           .catch((error) => {
