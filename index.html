@@ -109,7 +109,7 @@
       //USER'S code
 
       function FromUnityToJs (){   // inted from uUnity
-          alert ("From Unity To Js starts");//this appears in prompt -window in user's browser'
+          //alert ("From Unity To Js starts");//this appears in prompt -window in user's browser'
           console.log("FromUnityToJs in Index.html initialized");//you can see this log in browser when press ctrl+shift+K
           //window.open("https://asyamishkina.github.io/MyUnityRepository0/index.html")
 
@@ -129,6 +129,7 @@
          .then((data) => { 
             if (data.result) {
               // success
+              alert ("vkBridge.send('VKWebAppShowBannerAd', {  banner_location: 'bottom' })");//this banner showed
             }
           })
           .catch((error) => {
