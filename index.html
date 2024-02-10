@@ -127,7 +127,7 @@ var MyUnityAppInstance=null; //Link on established unity-applications on this pa
      
      //vkBridge show banner advertisment
         function _VKShowBannerAdM() {
-            bridge.send('VKWebAppShowBannerAd', {
+           vkBridge.send('VKWebAppShowBannerAd', {
                 banner_location: 'bottom'
             })
                 .then((data) => {
